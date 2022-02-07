@@ -1,0 +1,60 @@
+.cardEntrada{
+    height: 87px;
+    width: 34.2vw;
+    margin: 25px 0px;
+    background-color: #dfdfdf;
+    border-radius: 4px;
+    display: flex;
+}
+.cardEntrada .indentificador{
+    width: 4px;
+    height: 100%;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #03B898;
+}
+.infoCard{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardDescription{
+    margin: 8px 0px 8px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+    color: #212529;
+}
+.typeDescription{
+    margin:8px 0px 8px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+    color: #868e96;
+}
+.valueDescription{
+    margin-left: 20%;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+    color: #212529;
+}
+.cardSaida{
+    height: 87px;
+    width: 34.2vw;
+    margin: 25px 0px;
+    background-color: #dfdfdf;
+    border-radius: 4px;
+    display: flex;
+}
+.cardSaida .indentificador{
+    width: 4px;
+    height: 100%;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #c6c6c7;
+}
+

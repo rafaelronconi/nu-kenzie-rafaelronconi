@@ -1,0 +1,87 @@
+
+.loginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.logoMainPage img{
+    margin-bottom: 30px;
+    width: 123px;
+    height: 20px;
+}
+.bigText{
+    width: 25vw;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 48px;
+    font-style: normal;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.smallText{
+    font-size: 16px;
+    line-height: 26px;
+    width: 17vw;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.logoMainPage button{
+    Width: 241px;
+    Height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FD377E;
+    color: #ffffff;
+    font-size: 16px;
+}
+.logoMainPage{
+    margin-right: 4vw;
+}
+.imgMainPage {
+    width: 30vw;
+    height: 30vw;
+    margin-left: 4vw;
+}
+.imgMainPage img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width: 850px){
+    .imgMainPage{
+        display: none;
+    }
+    .logoMainPage{
+        margin: 0px;
+        width: 100vw;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+    .logoMainPage img{
+        margin-bottom: 80px;
+        height: 40px;
+        width: 246px;
+    }
+    .bigText{
+        width: 70%;
+    }
+    .smallText{
+        width: 70%;
+        font-size: 20px;
+    }
+    .logoMainPage button{
+        font-size: 20px;
+    }
+}
+@media(max-width: 320px){
+    .bigText{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .smallText{
+        font-weight: 300;
+    }
+}

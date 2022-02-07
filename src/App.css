@@ -1,0 +1,53 @@
+header{
+    height: 10vh;
+    width: 100vw;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.50);
+    margin-bottom: 59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    height: 20px;
+    width: 123px;
+    margin-left: 100px;
+}
+header button{
+    height: 40px;
+    width: 64px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 150px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #868E96;
+}
+.mainPage{
+    display: flex;
+    height: 78vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    align-self: flex-start;
+    margin: 0px 2vw 0px 0px;
+}
+.listTransaction{
+    margin-left: 2vw;
+    align-self: flex-start;
+    display: flex;
+}
+.menu{
+    background-color: #212529;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

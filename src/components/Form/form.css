@@ -1,0 +1,114 @@
+.mainDescription{
+    background-color: #ffffff;
+    height: 351px;
+    width: 363px;
+    margin-bottom: 22px;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descriptionInput{
+    background-color: #dfdfdf;
+    border-radius: 8px;
+    border: none;
+    height: 52px;
+    width: 314px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #868e96;
+}
+.descriptionTitle{
+    align-self: flex-start;
+    margin: 30px 0px 10px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529
+}
+.exemplo{
+    align-self: flex-start;
+    margin: 10px 0px 30px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #868e96;
+}
+.valueContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selectValue{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.valueInput{
+    background-color: #dfdfdf;
+    width: 128px;
+    height: 48px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #868e96;
+}
+.valueTitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529
+}
+.selectType{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.typeInput{
+    background-color: #dfdfdf;
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 26px;
+    color: #868e96;
+}
+.typeTitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529
+}
+.addDescription{
+    background: #FD377E;
+    margin-top: 20px;
+    width: 314px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
